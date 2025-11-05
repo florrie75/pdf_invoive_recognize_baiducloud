@@ -104,8 +104,9 @@ def data_manage(json_data, filename, page):
     return data
 
 if __name__ == '__main__':
-    path = r'C:\Users\Admin\Desktop\FH\研二上\实验室\2\4.txt'
+    path = r''
     f = open(path, 'r', encoding='UTF-8')
     json_data = f.read()
     data = data_manage(json_data)
+
     list_output_excel(data)
