@@ -31,9 +31,10 @@ class pdf_m:
         # return self.pdf_files, self.pdf_page
 
 if __name__ == '__main__':
-    path = r'C:\Users\Admin\Desktop\FH\研二上\实验室\3'
+    path = r''
     folder = pdf_m(path)
     # files, pages = folder.print_all_pdfs_in_folder()
     folder.print_all_pdfs_in_folder()
     print(type(folder.pdf_files), folder.pdf_files)
+
     print(type(folder.pdf_page), folder.pdf_page)
