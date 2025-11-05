@@ -1,0 +1,2 @@
+# pdf_invoive_recognize_baiducloud
+使用百度云OCR识别接口，识别文件夹中所有pdf形式发票的文件
