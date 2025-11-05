@@ -50,9 +50,8 @@ def get_access_token():
 
 
 if __name__ == '__main__':
-    a = '01592'
-    path1 = r"C:\Users\Admin\Desktop\FH\研二上\实验室\1030\(25100125497...)010200电子信息工程学院___信道建模与场景孪生技术"
-    path2 = r'\251001-'+ a
-    path3 = r'\2510_'+ a + '_1.pdf'
-    path = path1 + path2 + path3
+
+    path = r""
+
     main(path,1)
+
